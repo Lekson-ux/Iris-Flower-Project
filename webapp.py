@@ -33,10 +33,10 @@ def main():
     st.write("### We need some information to classify flower")
 
     #getting input from user
-    sepal_length = st.text_input("Sepal Length")
-    sepal_width = st.text_input("Sepal Width")
-    petal_length = st.text_input("Petal Length")
-    petal_width = st.text_input("Petal Width")
+    sepal_length = st.text_input("Sepal Length(cm)")
+    sepal_width = st.text_input("Sepal Width(cm)")
+    petal_length = st.text_input("Petal Length(cm)")
+    petal_width = st.text_input("Petal Width(cm)")
 
     result = ""
 
